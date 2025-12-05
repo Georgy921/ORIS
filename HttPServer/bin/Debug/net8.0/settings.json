@@ -1,0 +1,10 @@
+{
+    "StaticDirectoryPath": "static/",
+    "Domain": "localhost",
+    "Port": "1234",
+    "EmailFrom": "aleksysnmpov@mail.ru",
+    "EmailNameFrom": "TUK TUK",
+    "SmtpPort": "587",
+    "SmtpHost": "smtp.mail.ru",
+    "SmtpPassword": "aLZd8kbW4pSm5mPVVBLK"
+}
