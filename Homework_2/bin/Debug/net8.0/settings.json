@@ -1,0 +1,6 @@
+{
+    "StaticDirectoryPath": "static/",
+    "Domain": "localhost",
+    "Port": "3131",
+    "content-type":  "html/text"
+}
