@@ -1,14 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\\u041E\u0420\u0438\u0421\\repa\\Homework_2\\",
+  "WorkspaceRootPath": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{448F8E4F-2D9A-48FA-8169-814144D1FB84}|HTTPServer.csproj|d:\\\u043E\u0440\u0438\u0441\\repa\\homework_2\\settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{448F8E4F-2D9A-48FA-8169-814144D1FB84}|HTTPServer.csproj|solutionrelative:settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{448F8E4F-2D9A-48FA-8169-814144D1FB84}|HTTPServer.csproj|d:\\\u043E\u0440\u0438\u0441\\repa\\repa\\homework_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448F8E4F-2D9A-48FA-8169-814144D1FB84}|HTTPServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{448F8E4F-2D9A-48FA-8169-814144D1FB84}|HTTPServer.csproj|d:\\\u043E\u0440\u0438\u0441\\repa\\homework_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{448F8E4F-2D9A-48FA-8169-814144D1FB84}|HTTPServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{448F8E4F-2D9A-48FA-8169-814144D1FB84}|HTTPServer.csproj|d:\\\u043E\u0440\u0438\u0441\\repa\\repa\\homework_2\\core\\handlers\\findmethodshandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448F8E4F-2D9A-48FA-8169-814144D1FB84}|HTTPServer.csproj|solutionrelative:core\\handlers\\findmethodshandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{448F8E4F-2D9A-48FA-8169-814144D1FB84}|HTTPServer.csproj|d:\\\u043E\u0440\u0438\u0441\\repa\\repa\\homework_2\\endpoints\\homeendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448F8E4F-2D9A-48FA-8169-814144D1FB84}|HTTPServer.csproj|solutionrelative:endpoints\\homeendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{448F8E4F-2D9A-48FA-8169-814144D1FB84}|HTTPServer.csproj|d:\\\u043E\u0440\u0438\u0441\\repa\\repa\\homework_2\\core\\attributes\\httppostatribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448F8E4F-2D9A-48FA-8169-814144D1FB84}|HTTPServer.csproj|solutionrelative:core\\attributes\\httppostatribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{448F8E4F-2D9A-48FA-8169-814144D1FB84}|HTTPServer.csproj|d:\\\u043E\u0440\u0438\u0441\\repa\\repa\\homework_2\\core\\attributes\\httpgetattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448F8E4F-2D9A-48FA-8169-814144D1FB84}|HTTPServer.csproj|solutionrelative:core\\attributes\\httpgetattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{448F8E4F-2D9A-48FA-8169-814144D1FB84}|HTTPServer.csproj|d:\\\u043E\u0440\u0438\u0441\\repa\\repa\\homework_2\\core\\abstracts\\baseendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448F8E4F-2D9A-48FA-8169-814144D1FB84}|HTTPServer.csproj|solutionrelative:core\\abstracts\\baseendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{448F8E4F-2D9A-48FA-8169-814144D1FB84}|HTTPServer.csproj|d:\\\u043E\u0440\u0438\u0441\\repa\\repa\\homework_2\\core\\handlers\\staticfileshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448F8E4F-2D9A-48FA-8169-814144D1FB84}|HTTPServer.csproj|solutionrelative:core\\handlers\\staticfileshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{448F8E4F-2D9A-48FA-8169-814144D1FB84}|HTTPServer.csproj|d:\\\u043E\u0440\u0438\u0441\\repa\\repa\\homework_2\\core\\handlers\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448F8E4F-2D9A-48FA-8169-814144D1FB84}|HTTPServer.csproj|solutionrelative:core\\handlers\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{448F8E4F-2D9A-48FA-8169-814144D1FB84}|HTTPServer.csproj|d:\\\u043E\u0440\u0438\u0441\\repa\\repa\\homework_2\\static2\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{448F8E4F-2D9A-48FA-8169-814144D1FB84}|HTTPServer.csproj|solutionrelative:static2\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{448F8E4F-2D9A-48FA-8169-814144D1FB84}|HTTPServer.csproj|d:\\\u043E\u0440\u0438\u0441\\repa\\repa\\homework_2\\static2\\forget.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{448F8E4F-2D9A-48FA-8169-814144D1FB84}|HTTPServer.csproj|solutionrelative:static2\\forget.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{448F8E4F-2D9A-48FA-8169-814144D1FB84}|HTTPServer.csproj|d:\\\u043E\u0440\u0438\u0441\\repa\\repa\\homework_2\\settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{448F8E4F-2D9A-48FA-8169-814144D1FB84}|HTTPServer.csproj|solutionrelative:settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +54,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "settings.json",
-              "DocumentMoniker": "D:\\\u041E\u0420\u0438\u0421\\repa\\Homework_2\\settings.json",
-              "RelativeDocumentMoniker": "settings.json",
-              "ToolTip": "D:\\\u041E\u0420\u0438\u0421\\repa\\Homework_2\\settings.json",
-              "RelativeToolTip": "settings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-04T18:36:23.486Z",
+              "DocumentIndex": 5,
+              "Title": "BaseEndPoint.cs",
+              "DocumentMoniker": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_2\\Core\\Abstracts\\BaseEndPoint.cs",
+              "RelativeDocumentMoniker": "Core\\Abstracts\\BaseEndPoint.cs",
+              "ToolTip": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_2\\Core\\Abstracts\\BaseEndPoint.cs",
+              "RelativeToolTip": "Core\\Abstracts\\BaseEndPoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T08:22:33.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HttpPostAtribute.cs",
+              "DocumentMoniker": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_2\\Core\\Attributes\\HttpPostAtribute.cs",
+              "RelativeDocumentMoniker": "Core\\Attributes\\HttpPostAtribute.cs",
+              "ToolTip": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_2\\Core\\Attributes\\HttpPostAtribute.cs",
+              "RelativeToolTip": "Core\\Attributes\\HttpPostAtribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T08:20:02.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HttpGetAttribute.cs",
+              "DocumentMoniker": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_2\\Core\\Attributes\\HttpGetAttribute.cs",
+              "RelativeDocumentMoniker": "Core\\Attributes\\HttpGetAttribute.cs",
+              "ToolTip": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_2\\Core\\Attributes\\HttpGetAttribute.cs",
+              "RelativeToolTip": "Core\\Attributes\\HttpGetAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T08:19:43.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeEndPoints.cs",
+              "DocumentMoniker": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_2\\EndPoints\\HomeEndPoints.cs",
+              "RelativeDocumentMoniker": "EndPoints\\HomeEndPoints.cs",
+              "ToolTip": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_2\\EndPoints\\HomeEndPoints.cs",
+              "RelativeToolTip": "EndPoints\\HomeEndPoints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T08:16:45.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FindMethodsHandlers.cs",
+              "DocumentMoniker": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_2\\Core\\Handlers\\FindMethodsHandlers.cs",
+              "RelativeDocumentMoniker": "Core\\Handlers\\FindMethodsHandlers.cs",
+              "ToolTip": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_2\\Core\\Handlers\\FindMethodsHandlers.cs",
+              "RelativeToolTip": "Core\\Handlers\\FindMethodsHandlers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T07:31:38.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StaticFilesHandler.cs",
+              "DocumentMoniker": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_2\\Core\\Handlers\\StaticFilesHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Handlers\\StaticFilesHandler.cs",
+              "ToolTip": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_2\\Core\\Handlers\\StaticFilesHandler.cs",
+              "RelativeToolTip": "Core\\Handlers\\StaticFilesHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T07:30:42.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Handler.cs",
+              "DocumentMoniker": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_2\\Core\\Handlers\\Handler.cs",
+              "RelativeDocumentMoniker": "Core\\Handlers\\Handler.cs",
+              "ToolTip": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_2\\Core\\Handlers\\Handler.cs",
+              "RelativeToolTip": "Core\\Handlers\\Handler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T07:29:06.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "login.html",
+              "DocumentMoniker": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_2\\static2\\login.html",
+              "RelativeDocumentMoniker": "static2\\login.html",
+              "ToolTip": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_2\\static2\\login.html",
+              "RelativeToolTip": "static2\\login.html",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-10-11T06:50:48.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "forget.html",
+              "DocumentMoniker": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_2\\static2\\forget.html",
+              "RelativeDocumentMoniker": "static2\\forget.html",
+              "ToolTip": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_2\\static2\\forget.html",
+              "RelativeToolTip": "static2\\forget.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-10-11T06:49:49.676Z",
               "EditorCaption": ""
             },
             {
@@ -47,13 +187,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
+              "Title": "settings.json",
+              "DocumentMoniker": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_2\\settings.json",
+              "RelativeDocumentMoniker": "settings.json",
+              "ToolTip": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_2\\settings.json",
+              "RelativeToolTip": "settings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-04T18:36:23.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\\u041E\u0420\u0438\u0421\\repa\\Homework_2\\Program.cs",
+              "DocumentMoniker": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\\u041E\u0420\u0438\u0421\\repa\\Homework_2\\Program.cs",
+              "ToolTip": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAYwEUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-04T17:31:48.177Z",
               "EditorCaption": ""

@@ -1,20 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3oBGOPP6RC8=",
+  "dgSpecHash": "hALByylwTmc=",
   "success": true,
-  "projectFilePath": "D:\\ОРиС\\repa\\Homework_2\\HTTPServer.csproj",
+  "projectFilePath": "D:\\ОРиС\\repa\\repa\\Homework_2\\HTTPServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aleks\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "message": "Произошла ошибка при получении данных уязвимости пакета: Не удалось загрузить индекс службы для источника https://api.nuget.org/v3/index.json.",
-      "projectPath": "D:\\ОРиС\\repa\\Homework_2\\HTTPServer.csproj",
-      "warningLevel": 1,
-      "filePath": "D:\\ОРиС\\repa\\Homework_2\\HTTPServer.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }

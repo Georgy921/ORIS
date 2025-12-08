@@ -1,5 +1,5 @@
 {
-    "StaticDirectoryPath": "static/",
+    "StaticDirectoryPath": "static2/",
     "Domain": "localhost",
     "Port": "8080",
     "content-type":  "html/text"

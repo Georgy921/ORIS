@@ -7,16 +7,27 @@
       "RelativeMoniker": "D:0:0:{48E5FCB7-F40C-4630-88F2-0AE023A76F89}|HttPServer.csproj|solutionrelative:shar\\httpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{48E5FCB7-F40C-4630-88F2-0AE023A76F89}|HttPServer.csproj|d:\\\u043E\u0440\u0438\u0441\\repa\\repa\\homework_3\\httpserver\\shar\\settingsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E5FCB7-F40C-4630-88F2-0AE023A76F89}|HttPServer.csproj|solutionrelative:shar\\settingsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{48E5FCB7-F40C-4630-88F2-0AE023A76F89}|HttPServer.csproj|d:\\\u043E\u0440\u0438\u0441\\repa\\repa\\homework_3\\httpserver\\shar\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48E5FCB7-F40C-4630-88F2-0AE023A76F89}|HttPServer.csproj|solutionrelative:shar\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E5FCB7-F40C-4630-88F2-0AE023A76F89}|HttPServer.csproj|d:\\\u043E\u0440\u0438\u0441\\repa\\repa\\homework_3\\httpserver\\static\\htmlpage1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48E5FCB7-F40C-4630-88F2-0AE023A76F89}|HttPServer.csproj|solutionrelative:static\\htmlpage1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E5FCB7-F40C-4630-88F2-0AE023A76F89}|HttPServer.csproj|d:\\\u043E\u0440\u0438\u0441\\repa\\repa\\homework_3\\httpserver\\static\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48E5FCB7-F40C-4630-88F2-0AE023A76F89}|HttPServer.csproj|solutionrelative:static\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48E5FCB7-F40C-4630-88F2-0AE023A76F89}|HttPServer.csproj|d:\\\u043E\u0440\u0438\u0441\\repa\\repa\\homework_3\\httpserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48E5FCB7-F40C-4630-88F2-0AE023A76F89}|HttPServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48E5FCB7-F40C-4630-88F2-0AE023A76F89}|HttPServer.csproj|d:\\\u043E\u0440\u0438\u0441\\repa\\repa\\homework_3\\httpserver\\static\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48E5FCB7-F40C-4630-88F2-0AE023A76F89}|HttPServer.csproj|solutionrelative:static\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041E\u0420\u0438\u0421\\repa\\Server\\SERVER\\HttPServer\\Core\\Handlers\\EndpointsHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48E5FCB7-F40C-4630-88F2-0AE023A76F89}|HttPServer.csproj|d:\\\u043E\u0440\u0438\u0441\\repa\\repa\\homework_3\\httpserver\\shar\\contenttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -28,10 +39,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041E\u0420\u0438\u0421\\repa\\Server\\HTTPServer\\settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48E5FCB7-F40C-4630-88F2-0AE023A76F89}|HttPServer.csproj|d:\\\u043E\u0440\u0438\u0441\\repa\\repa\\homework_3\\httpserver\\shar\\settingsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48E5FCB7-F40C-4630-88F2-0AE023A76F89}|HttPServer.csproj|solutionrelative:shar\\settingsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48E5FCB7-F40C-4630-88F2-0AE023A76F89}|HttPServer.csproj|d:\\\u043E\u0440\u0438\u0441\\repa\\repa\\homework_3\\httpserver\\static\\login.html||{C76D83F8-A489-11D0-8195-00A0C91BBEE3}",
@@ -54,8 +61,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 15,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EndpointsHandler.cs",
+              "DocumentMoniker": "D:\\\u041E\u0420\u0438\u0421\\repa\\Server\\SERVER\\HttPServer\\Core\\Handlers\\EndpointsHandler.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Server\\SERVER\\HttPServer\\Core\\Handlers\\EndpointsHandler.cs",
+              "ToolTip": "D:\\\u041E\u0420\u0438\u0421\\repa\\Server\\SERVER\\HttPServer\\Core\\Handlers\\EndpointsHandler.cs",
+              "RelativeToolTip": "..\\..\\..\\Server\\SERVER\\HttPServer\\Core\\Handlers\\EndpointsHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T08:49:10.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HTMLPage1.html",
+              "DocumentMoniker": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_3\\HttPServer\\static\\HTMLPage1.html",
+              "RelativeDocumentMoniker": "static\\HTMLPage1.html",
+              "ToolTip": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_3\\HttPServer\\static\\HTMLPage1.html",
+              "RelativeToolTip": "static\\HTMLPage1.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-08T08:47:17.892Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -74,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Logger.cs",
               "DocumentMoniker": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_3\\HttPServer\\Shar\\Logger.cs",
               "RelativeDocumentMoniker": "Shar\\Logger.cs",
@@ -87,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "login.html",
               "DocumentMoniker": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_3\\HttPServer\\static\\login.html",
               "RelativeDocumentMoniker": "static\\login.html",
@@ -100,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "IHtmlTemplateRenderer.cs",
               "DocumentMoniker": "D:\\\u041E\u0420\u0438\u0421\\repa\\Server\\SERVER\\HttPServer\\Shar\\IHtmlTemplateRenderer.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Server\\SERVER\\HttPServer\\Shar\\IHtmlTemplateRenderer.cs",
@@ -112,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "login.html",
               "DocumentMoniker": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_3\\HttPServer\\static\\login.html",
               "RelativeDocumentMoniker": "static\\login.html",
@@ -123,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "browser.html",
               "DocumentMoniker": "D:\\\u041E\u0420\u0438\u0421\\repa\\Server\\HTTPServer\\static\\browser.html",
               "RelativeDocumentMoniker": "..\\..\\..\\Server\\HTTPServer\\static\\browser.html",
@@ -135,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "browser.css",
               "DocumentMoniker": "D:\\\u041E\u0420\u0438\u0421\\repa\\Server\\HTTPServer\\static\\browser.css",
               "RelativeDocumentMoniker": "..\\..\\..\\Server\\HTTPServer\\static\\browser.css",
@@ -147,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "settings.json",
               "DocumentMoniker": "D:\\\u041E\u0420\u0438\u0421\\repa\\Server\\HTTPServer\\settings.json",
               "RelativeDocumentMoniker": "..\\..\\..\\Server\\HTTPServer\\settings.json",
@@ -155,12 +188,11 @@
               "RelativeToolTip": "..\\..\\..\\Server\\HTTPServer\\settings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-18T06:00:45.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-18T06:00:45.297Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "settings.json",
               "DocumentMoniker": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_3\\HttPServer\\settings.json",
               "RelativeDocumentMoniker": "settings.json",
@@ -173,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "SettingsModel.cs",
               "DocumentMoniker": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_3\\HttPServer\\Shar\\SettingsModel.cs",
               "RelativeDocumentMoniker": "Shar\\SettingsModel.cs",
@@ -199,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ContentTypes.cs",
               "DocumentMoniker": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_3\\HttPServer\\Shar\\ContentTypes.cs",
               "RelativeDocumentMoniker": "Shar\\ContentTypes.cs",
@@ -212,13 +244,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_3\\HttPServer\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_3\\HttPServer\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAnwBoAAAATAAAAAAAAAA==",
+              "ToolTip": "D:\\\u041E\u0420\u0438\u0421\\repa\\repa\\Homework_3\\HttPServer\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-14T20:21:17.516Z",
               "EditorCaption": ""

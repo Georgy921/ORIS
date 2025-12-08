@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZD1KWMs5rY4=",
+  "dgSpecHash": "cm0GDQ6BJUo=",
   "success": true,
   "projectFilePath": "D:\\ОРиС\\repa\\repa\\Homework_3\\HttPServer\\HttPServer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\aleks\\.nuget\\packages\\htmlagilitypack\\1.12.4\\htmlagilitypack.1.12.4.nupkg.sha512",
     "C:\\Users\\aleks\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512"
   ],
   "logs": []

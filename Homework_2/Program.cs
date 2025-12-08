@@ -2,6 +2,8 @@
 using System.Text;
 using System.Text.Json;
 using System.Threading.Channels;
+using HTTPServer.Core;
+using HTTPServer.Core.Handlers;
 using HTTPServer.shared;
 
 try
@@ -55,44 +57,69 @@ static async Task ProcessRequest(HttpListener server, SettingsModel settingsMode
         // получаем контекст
 
         var context = await server.GetContextAsync();
-        var response = context.Response;
-        // отправляемый в ответ код html возвращает
-        try
-        {
-            string responseText = File.ReadAllText(settingsModel.StaticDirectoryPath + "browser.html");
-            response.Headers.Add("Content-Type", "text/html");
-            byte[] buffer = Encoding.UTF8.GetBytes(responseText);
-            // получаем поток ответа и пишем в него ответ
-            response.ContentLength64 = buffer.Length;
-            using Stream output = response.OutputStream;
-            // отправляем данные
-            await output.WriteAsync(buffer);
-            await output.FlushAsync();
 
-            Console.WriteLine("Запрос обработан");
-        }
+        Handler staticFilesHandler = new StaticFilesHandler();
+        Handler findMethodsHandler = new ConcreteHandler2();
+        staticFilesHandler.Successor = findMethodsHandler;
+        staticFilesHandler.HandleRequest(2);
 
-        catch (DirectoryNotFoundException e)
+        var request = context.Request;
+        if (request.HttpMethod.Equals("get", StringComparison.OrdinalIgnoreCase))
         {
-            Console.WriteLine("static folder not found");
-            server.Stop();
-            Console.WriteLine("Server is stopped");
-            break;
+            var response = context.Response;
+            // отправляемый в ответ код html возвращает
+
+            try
+            {
+                var path = context.Request;
+                var urlLocalPath = path.Url?.AbsolutePath;
+                string responseText = File.ReadAllText(settingsModel.StaticDirectoryPath + urlLocalPath);
+                response.Headers.Add("Content-Type", "text/html");
+                byte[] buffer = Encoding.UTF8.GetBytes(responseText);
+
+
+                response.ContentLength64 = buffer.Length;
+                using Stream output = response.OutputStream;
+                await output.WriteAsync(buffer);
+                await output.FlushAsync();
+
+                Console.WriteLine("Запрос обработан");
+            }
+
+            catch (DirectoryNotFoundException e)
+            {
+                Console.WriteLine("static folder not found");
+                server.Stop();
+                Console.WriteLine("Server is stopped");
+                break;
+            }
+            catch (FileNotFoundException e)
+            {
+                Console.WriteLine("html is not found in folder");
+                server.Stop();
+                Console.WriteLine("Server is stopped");
+                break;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("There is an exception: " + e.Message);
+                server.Stop();
+                Console.WriteLine("Server is stopped");
+                break;
+            }
         }
-        catch (FileNotFoundException e)
+        else
         {
-            Console.WriteLine("browser.html is not found in static folder");
-            server.Stop();
-            Console.WriteLine("Server is stopped");
-            break;
+            if (request.HttpMethod.Equals("post", StringComparison.OrdinalIgnoreCase))
+            {
+                switch (request.Url.AbsolutePath)
+                {
+                    case "SendEmail":
+                        break;
+                    default:
+                        break;
+                }
+            }
         }
-        catch (Exception e)
-        {
-            Console.WriteLine("There is an exception: " + e.Message);
-            server.Stop();
-            Console.WriteLine("Server is stopped");
-            break;
-        }
-        
     }
 }
