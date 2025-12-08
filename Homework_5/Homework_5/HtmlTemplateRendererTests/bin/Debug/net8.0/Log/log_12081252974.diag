@@ -1,0 +1,16 @@
+2025-12-08T12:36:52.9814270+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.4.3+c252b64ad913ea9411fc5d17bfd5580d2d061497
+2025-12-08T12:36:52.9961499+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-12-08T12:36:52.9979127+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-12-08T12:36:52.9979255+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 12:36:52.946
+2025-12-08T12:36:53.0004605+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 5748
+2025-12-08T12:36:53.0006827+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 8.0.22
+2025-12-08T12:36:53.0007028+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.22\System.Private.CoreLib.dll
+2025-12-08T12:36:53.0007194+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-12-08T12:36:53.0007235+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: D:\ОРиС\repa\repa\Homework_5\HtmlTemplateRendererTests\bin\Debug\net8.0\HtmlTemplateRendererTests.dll
+2025-12-08T12:36:53.0009968+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory D:\ОРиС\repa\repa\Homework_5\HtmlTemplateRendererTests\bin\Debug\net8.0\Log --results-directory D:\ОРиС\repa\repa\Homework_5\HttPServer\TestResults --client-port 61746'
+2025-12-08T12:36:53.0024022+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-12-08T12:36:53.0366405+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-12-08T12:36:53.0399524+00:00 Microsoft.Testing.Platform.Configurations.JsonConfigurationSource+JsonConfigurationProvider INFORMATION Config file 'D:\ОРиС\repa\repa\Homework_5\HtmlTemplateRendererTests\bin\Debug\net8.0\HtmlTemplateRendererTests.testconfig.json' not found.
+2025-12-08T12:36:53.0411684+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable:  VSTest mode: False
+2025-12-08T12:36:53.2015868+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTestExtension' Version: '3.6.4' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2025-12-08T12:36:53.2178141+00:00 Microsoft.Testing.Extensions.VSTestBridge.ObjectModel.MessageLoggerAdapter WARNING Атрибут Runsettings "MaxCpuCount" не поддерживается в Microsoft.Testing.Platform и будет пропущен

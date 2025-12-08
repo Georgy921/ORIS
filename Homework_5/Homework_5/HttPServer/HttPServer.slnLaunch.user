@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "Новый профиль",
+    "Projects": [
+      {
+        "Path": "HttPServer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\MiniTemplateEngine\\TemplateEngine.csproj",
+        "Action": "Start",
+        "DebugTarget": "MiniTemplateEngine"
+      },
+      {
+        "Path": "..\\HtmlTemplateRendererTests\\HtmlTemplateRendererTests.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

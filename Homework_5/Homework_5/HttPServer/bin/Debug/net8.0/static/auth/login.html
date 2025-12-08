@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: url('img/background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .auth-container {
+            width: 100%;
+            max-width: 1100px;
+            
+        }
+
+        .auth-card {
+            background: white;
+            border-radius: 30px;
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
+            display: flex;
+            width: 100%;
+            overflow: hidden;
+            padding: 40px;
+            gap: 40px; 
+        }
+
+        .login-form {
+            flex: 0 0 400px; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .login-image {
+            flex: 1; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            border-radius: 20px;
+            overflow: hidden;
+            padding: 20px;
+            min-height: 400px;
+        }
+
+   
+        .image-wrapper {
+            display: flex;
+            align-items: flex-end; /* Прижимаем к низу */
+            gap: 15px; /* Расстояние между картинками */
+            max-width: 100%;
+        }
+
+        .login-image img {
+            height: auto;
+            max-width: 100%;
+            object-fit: contain;
+            max-height: 380px;
+        }
+
+            .login-image img.character {
+                max-height: 350px;
+            }
+
+            .login-image img.cactus {
+                max-height: 380px;
+            }
+
+        .logo h2 {
+            font-size: 26px;
+            margin: 0;
+            font-weight: 700;
+            color: #d47ca5;
+        }
+
+        .logo p {
+            font-weight: 500;
+            margin: 10px 0 0;
+            font-size: 15px;
+            color: #333;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin: 30px 0 30px;
+            font-weight: 700;
+        }
+
+        label {
+            font-size: 15px;
+            margin-bottom: 8px;
+            font-weight: 500;
+            display: block;
+        }
+
+        input {
+            font-size: 14px;
+            padding: 12px 15px;
+            background: #d8e7f4;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+        }
+
+        .field {
+            margin-bottom: 25px;
+        }
+
+        .password-label {
+            align-items: center;
+            width: 100%;
+            justify-content: space-between;
+            display: flex;
+        }
+
+            .password-label a {
+                text-decoration: none;
+                font-size: 13px;
+                color: #888;
+            }
+
+        button {
+            width: 140px;
+            background: #d47ca5;
+            font-size: 14px;
+            padding: 12px;
+            border-radius: 30px;
+            margin-top: 15px;
+            font-weight: 600;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        .sign-actions {
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            display: flex;
+            text-align: center;
+            margin-top: 25px;
+        }
+
+            .sign-actions p {
+                margin: 20px 0;
+                color: #888;
+                font-size: 14px;
+            }
+
+            .sign-actions ul {
+                list-style: none;
+                padding: 0;
+                display: flex;
+                gap: 15px;
+                justify-content: flex-start;
+                margin: 0 0 20px 0;
+            }
+
+            .sign-actions li {
+                height: 40px;
+                justify-content: center;
+                transition: 0.2s;
+                width: 100px;
+                display: flex;
+                border: 1px solid #ccc;
+                align-items: center;
+                border-radius: 30px;
+            }
+
+                .sign-actions li:hover {
+                    background: #f7f7f7;
+                }
+
+            .sign-actions img {
+                width: 20px;
+                height: 20px;
+            }
+
+            .sign-actions a {
+                text-decoration: none;
+                color: #d47ca5;
+                font-weight: 500;
+            }
+       
+    </style>
+
+</head>
+
+<body>
+    <main class="auth-container">
+        <div class="auth-card">
+            <div class="login-form">
+                <div class="logo">
+                    <h2>Welcome</h2>
+                    <p>We are glad to see you back with us</p>
+                </div>
+
+                <h1>Log In</h1>
+
+                <form id="loginForm" method="POST" action="/auth/">
+                    <div class="field">
+                        <label>Email</label>
+                        <input type="email" name="email" id="email" placeholder="username@gmail.com" required>
+                    </div>
+
+                    <div class="field">
+                        <div class="password-label">
+                            <label>Password</label>
+                            <a href="#">Forgot Password ?</a>
+                        </div>
+                        <input type="password" name="password" id="password" placeholder="**************" required>
+                    </div>
+
+                    <div class="sign-actions">
+                        <button type="submit">Send</button>
+                        <p>or continue with</p>
+                        <ul>
+                            <li><img src="img/google.png" alt="google"></li>
+                            <li><img src="img/github.png" alt="github"></li>
+                            <li><img src="img/facebook.png" alt="facebook"></li>
+                        </ul>
+                        <p>Don't have an account yet? <a href="#">Sign up for free</a></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="login-image">
+                <div class="image-wrapper">
+                    <img src="img/character.png" class="character" alt="character">
+                    <img src="img/cactus.png" class="cactus" alt="cactus">
+                </div>
+            </div>
+        </div>
+</main>
+
+    <script>
+        console.log('Скрипт загружен');
+
+        // получаем форму
+        const loginForm = document.getElementById('loginForm');
+        console.log('Форма найдена:', loginForm);
+
+        // добавляем обработчик события submit
+        loginForm.addEventListener('submit', function (e) {
+            console.log('Форма отправлена!');
+            e.preventDefault(); // останавливаем стандартную отправку формы
+
+            // получаем данные из полей
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            console.log('Email:', email, 'Password:', password);
+
+            // создаем объект с данными
+            const loginData = {
+                email: email,
+                password: password
+            };
+
+            // отправляем POST запрос
+            fetch('/auth/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(loginData)
+            })
+                .then(response => {
+                    if (response.ok) {
+                        return response.text();
+                    }
+                    throw new Error('Ошибка входа');
+                })
+                .then(data => {
+                    console.log('Успешный вход:', data);
+
+                    alert('Вход выполнен успешно!');
+                })
+                .catch(error => {
+                    console.error('Ошибка:', error);
+                    alert('Ошибка входа: ' + error.message);
+                });
+        });
+    </script>
+</body>
+
+</html>
