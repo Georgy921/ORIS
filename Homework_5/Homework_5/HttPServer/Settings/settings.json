@@ -1,9 +1,0 @@
-{
-    "Domain": "localhost",
-    "EmailFrom": "WhiteHouse",
-    "EmailNameFrom": "aleksysnmpov@mail.ru",
-    "SmtpHost": "aleksysnmpov@mail.ru",
-    "SmtpPassword": "example",
-    "SmtpPort": "587",
-    "StaticDirectoryPath": ".static/"
-}

@@ -1,0 +1,26 @@
+## Ignore Visual Studio files
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.user
+*.userosscache
+*.suo
+*.cache
+*.vs/
+.vs/
+*.vscode/
+*.resharper
+*.[Rr]e[Ss]harper
+*.DotSettings
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env

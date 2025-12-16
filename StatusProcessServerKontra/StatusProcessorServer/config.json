@@ -1,0 +1,5 @@
+{
+    "ProcessingIntervalSeconds": 30,
+    "MaxErrorRetries": 5,
+    "ConnectionString": "Host=localhost;Port=5432;Database=postgres;Username=postgres;Password=9996"
+}
