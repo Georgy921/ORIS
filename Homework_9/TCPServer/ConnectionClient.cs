@@ -85,7 +85,7 @@ namespace TCPServer
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"Error processing packet: {ex.Message}");
+                    Console.WriteLine($"Error packet: {ex.Message}");
                     Console.WriteLine($"Inner: {ex.InnerException?.Message}");
                     Console.WriteLine(ex.StackTrace);
                     return;
@@ -183,7 +183,7 @@ namespace TCPServer
         {
             if (packet.Length > 256)
             {
-                throw new Exception("Max packet size is 256 bytes.");
+                throw new Exception("Max packet size 256 bytes.");
             }
 
             _packetSendingQueue.Enqueue(packet);

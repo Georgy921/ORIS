@@ -33,7 +33,7 @@ namespace TCPServer
         {
             if (_listening)
             {
-                throw new Exception("Server is already listening incoming requests.");
+                throw new Exception("Server is listening ");
             }
 
             _socket.Bind(new IPEndPoint(IPAddress.Any, 4910));
@@ -46,7 +46,7 @@ namespace TCPServer
         {
             if (!_listening)
             {
-                throw new Exception("Server is already not listening incoming requests.");
+                throw new Exception("Server is not listening ");
             }
 
             _stopListening = true;
@@ -71,7 +71,7 @@ namespace TCPServer
                 }
                 catch { return; }
 
-                Console.WriteLine($"[!] Accepted client from {(IPEndPoint)client.RemoteEndPoint}");
+                Console.WriteLine($"Accepted client: {(IPEndPoint)client.RemoteEndPoint}");
 
                 var c = new ConnectedClient(client, this);
 

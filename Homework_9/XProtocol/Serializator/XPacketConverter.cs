@@ -35,17 +35,17 @@ namespace XProtocol.Serializator
                 }
             }
 
-            var packet = XPacket.Create(type, subtype);
+            var pack = XPacket.Create(type, subtype);
 
             foreach (var field in fields)
             {
-                packet.SetValue(field.Item2, field.Item1.GetValue(obj));
+                pack.SetValue(field.Item2, field.Item1.GetValue(obj));
             }
 
-            return packet;
+            return pack;
         }
 
-        public static T Deserialize<T>(XPacket packet, bool strict = false)
+        public static T Deserialize<T>(XPacket pack, bool strict = false)
         {
             var fields = GetFields(typeof(T));
             var instance = Activator.CreateInstance<T>();
@@ -60,7 +60,7 @@ namespace XProtocol.Serializator
                 var field = tuple.Item1;
                 var packetFieldId = tuple.Item2;
 
-                if (!packet.HasField(packetFieldId))
+                if (!pack.HasField(packetFieldId))
                 {
                     if (strict)
                     {
@@ -73,7 +73,7 @@ namespace XProtocol.Serializator
                 var value = typeof(XPacket)
                     .GetMethod("GetValue")?
                     .MakeGenericMethod(field.FieldType)
-                    .Invoke(packet, new object[] { packetFieldId });
+                    .Invoke(pack, new object[] { packetFieldId });
 
                 if (value == null)
                 {
@@ -149,7 +149,7 @@ namespace XProtocol.Serializator
                 return structure;
             }
 
-            throw new NotSupportedException($"Cannot convert byte array to unsupported value type: {targetType.FullName}");
+            throw new NotSupportedException($"Cannot convert byte array : {targetType.FullName}");
         }
     }
 }
