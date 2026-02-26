@@ -1,0 +1,1591 @@
+﻿/* === 1. СБРОС И БАЗОВЫЕ СТИЛИ === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* === FOOTER === */
+.footer {
+    background-color: #f8f8f8;
+    padding: 40px 0 20px;
+    margin-top: 60px;
+    width: 100%;
+    position: relative;
+}
+
+    .footer .container {
+        max-width: 1190px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+/* Для правильного отображения на мобильных устройствах */
+@media (max-width: 1190px) {
+    .footer .container {
+        padding: 0 15px;
+    }
+}
+
+.footer-logo-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* выравнивает элементы по вертикали */
+    gap: 20px; /* расстояние между логотипом и контактной информацией */
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* расстояние между номером телефона и иконками */
+}
+
+
+.footer-logo {
+    height: 40px;
+    width: auto;
+    max-width: 200px; /* Ограничение максимальной ширины */
+    object-fit: contain;
+    display: block;
+    flex-shrink: 0;
+}
+
+.footer-subscribe {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+
+.subscribe-text {
+    margin-right: 40px;
+}
+
+    .subscribe-text h3 {
+        font-size: 28px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 8px;
+    }
+
+    .subscribe-text p {
+        font-size: 14px;
+        color: #666;
+        max-width: 300px;
+    }
+
+.subscribe-form {
+    display: flex;
+    gap: 15px;
+    flex: 1;
+    max-width: 800px;
+    margin-bottom: 0;
+}
+
+.subscribe-input {
+    flex: 1;
+    padding: 12px 16px;
+    height: 60px;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    outline: none;
+    border-radius: 8px !important;
+    transition: border-color 0.2s;
+}
+
+    .subscribe-input:focus {
+        border-color: #666;
+    }
+
+.subscribe-btn {
+    height: 60px; /* Уменьшил высоту кнопки */
+    padding: 0 40px; /* Уменьшил горизонтальный внутренний отступ */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ffe100; /* Желтый цвет как у кнопки "Найти" */
+    border: none;
+    cursor: pointer;
+    border-radius: 8px; /* Закругленные края по всем сторонам */
+}
+
+    .subscribe-btn:hover {
+        background: #ffc338; /* Более светлый желтый при наведении */
+    }
+
+.subscribe-note {
+    width: 100%;
+    font-size: 15px;
+    color: #999;
+    margin-left: 31%;
+}
+
+    .subscribe-note a {
+        color: #999;
+        text-decoration: none;
+    }
+
+        .subscribe-note a:hover {
+            color: #007bff;
+        }
+
+.footer-divider {
+    height: 1px;
+    background-color: #b8b8b8;
+    margin: 40px 0;
+}
+
+.footer-main {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.footer-left {
+    flex: 0 0 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.footer-logo {
+    height: 40px;
+    width: auto;
+}
+
+.footer-phone {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 25px;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 14px;
+}
+
+.social-icon {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cecece;
+    border-radius: 50%;
+    transition: background-color 0.2s;
+}
+
+    .social-icon:hover {
+        background-color: #0096D6;
+    }
+
+    .social-icon img {
+        width: 25px;
+        height: 25px;
+    }
+
+.footer-app {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.app-text strong {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.app-text p {
+    font-size: 12px;
+    color: #666;
+    line-height: 1.4;
+}
+
+.app-qr {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+.footer-currency {
+    display: flex;
+    gap: 20px;
+}
+
+.currency-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.currency-flag {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.currency-code {
+    font-size: 12px;
+    color: #666;
+    min-width: 35px;
+}
+
+.currency-value {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.currency-history {
+    font-size: 12px;
+    color: #666;
+    text-decoration: none;
+}
+
+    .currency-history:hover {
+        text-decoration: underline;
+    }
+
+.footer-disclaimer {
+    font-size: 12px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.legal-link {
+    text-decoration: none;
+    color: #666;
+}
+
+    .legal-link:hover {
+        text-decoration: underline;
+    }
+
+.footer-column h4 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.footer-column {
+    max-width: 220px;
+}
+
+    .footer-column ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .footer-column li {
+        margin-bottom: 8px;
+    }
+
+    .footer-column a {
+        font-size: 13px;
+        color: #666;
+        text-decoration: none;
+        line-height: 1.4;
+        transition: color 0.2s;
+    }
+
+        .footer-column a:hover {
+            color: #4772F2;
+        }
+
+.footer-links-bottom {
+    display: flex;
+    gap: 300px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+    .footer-links-bottom a {
+        font-size: 18px;
+        color: #4772F2;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+        .footer-links-bottom a:hover {
+            text-decoration: underline;
+        }
+
+.footer-cookie {
+    font-size: 14px;
+    color: #999;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+    .footer-cookie a {
+        color: #b2b2b2;
+        text-decoration: underline;
+    }
+
+.scroll-to-top {
+    /* Убираем fixed — теперь будет позиционироваться внутри footer */
+    position: absolute; /* Относительно родителя (footer) */
+    bottom: 5px; /* Расстояние от низа footer */
+    left: 50%; /* Горизонтальный центр */
+    transform: translateX(-50%); /* Смещаем на половину ширины кнопки влево */
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: background-color 0.2s;
+    z-index: 100;
+}
+
+
+    .scroll-to-top img {
+        filter: brightness(0) invert(1);
+    }
+
+/* Адаптивность для footer */
+@media (max-width: 1200px) {
+    .footer-main {
+        gap: 20px;
+    }
+
+    .footer-left {
+        flex: 0 0 280px;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer-subscribe {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .subscribe-form {
+        max-width: 100%;
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    .footer-main {
+        flex-wrap: wrap;
+    }
+
+    .footer-left {
+        flex: 1 1 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-column {
+        flex: 1 1 calc(33.333% - 20px);
+        min-width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-column {
+        flex: 1 1 100%;
+    }
+
+    .footer-app {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-currency {
+        justify-content: center;
+    }
+
+    .footer-links-bottom {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: white;
+}
+
+.container {
+    padding: 0 20px;
+}
+
+/* === 2. HEADER === */
+.header {
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 0;
+}
+
+.logo {
+    width: auto;
+}
+
+.header--nav--icon {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: -30px;
+}
+
+.header-nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 30px;
+}
+
+.header-links li {
+    margin-left: 5px;
+    position: relative;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+    .header-links a:hover {
+        color: #0061c8;
+    }
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding: 15px 0;
+    height: 65px;
+}
+
+
+
+    .main-menu ul {
+        display: flex;
+        list-style: none;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+
+    .main-menu a {
+        text-decoration: none;
+        color: #333;
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .main-menu li a:hover {
+        color: #0061c8
+    }
+
+/* === 3. LAYOUT & SIDEBAR === */
+.page-layout {
+    display: flex;
+    background: #fff;
+    gap: 5px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar-filters {
+    width: 280px;
+    min-width: 280px;
+    max-width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: calc(100vh - 200px);
+    scrollbar-width: thin;
+    scrollbar-color: #eee white;
+}
+
+.main-wrapper {
+    max-width: 1190px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.main-content {
+    flex: 1;
+    display: inline-block;
+    padding: 5px 0;
+    padding-left: 10px;
+    background-color: white;
+    min-width: 0;
+    box-sizing: border-box;
+    height: calc(100vh - 200px);
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+/* === 4. SEARCH FORM === */
+
+/* === 4. SEARCH FORM === */
+.search-form {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    background: white;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 60px;
+}
+
+.search-field-wrapper {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0;
+    height: 60px;
+    border-right: 1px solid #e0e0e0;
+    transition: all 0.3s ease;
+}
+
+    .search-field-wrapper:last-child {
+        border-right: none;
+    }
+
+    /* При наведении на контейнер */
+    .search-field-wrapper:hover {
+        border: 1px solid #9c9c9c;
+        border-radius: 8px;
+    }
+
+.floating-label {
+    position: absolute;
+    top: 10px;
+    left: 14px;
+    font-size: 12px;
+    color: #888;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+
+
+/* Стили для поля ввода */
+.input-field {
+    width: 100%;
+    height: 100%;
+    padding: 22px 2px 0 12px;
+    font-size: 14px;
+    line-height: 1.4;
+    border: 1px solid #ddd;
+    border-radius: 0; /* Прямоугольные края в обычном состоянии */
+    transition: all 0.3s ease;
+    background: transparent;
+}
+
+/* При наведении на поле ввода */
+.search-field-wrapper:hover .input-field {
+    border-radius: 8px; /* Скругление краев */
+    border-color: #9c9c9c; /* Темный контур */
+}
+
+.input-field:focus + .floating-label,
+.input-field:not(:placeholder-shown) + .floating-label {
+    top: -8px;
+    left: 8px;
+    font-size: 11px;
+    color: #333;
+    font-weight: 500;
+    transform: scale(1.3);
+}
+
+.search-btn {
+    height: 100%;
+    min-width: 50px;
+    max-width: 100px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ffe100;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+    .search-btn:hover {
+        background: #ffc338;
+    }
+
+
+
+@media (max-width: 768px) {
+    .search-form {
+        flex-direction: column;
+        border-radius: 8px;
+    }
+
+    .search-field-wrapper {
+        border-right: none;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+        .search-field-wrapper:last-child {
+            border-bottom: none;
+        }
+
+    .search-btn {
+        border-radius: 0 0 8px 8px;
+        width: 100%;
+    }
+}
+
+/* === 5. FILTERS & TABS === */
+.breadcrumb {
+    padding: 10px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+    .breadcrumb a {
+        color: #444;
+        text-decoration: none;
+    }
+
+.filter-bar {
+    display: flex;
+    height: 60px;
+    gap: 10px;
+    background-color: white;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    margin-bottom: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tabs {
+    display: flex;
+    gap: 30px;
+    padding: 15px 0;
+    height: 50px;
+    border-bottom: 1px solid #eee;
+}
+
+    .tabs img {
+        height: 30px;
+        width: 30px;
+    }
+
+.tab {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+    .tab.active {
+        color: #007B9D;
+        border: 2px solid #007B9D; /* Добавлено значение border */
+    }
+
+.filter-tabs {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background-color: #F0F8FF;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 40px;
+    margin: 10px;
+    display: flex; /* Добавлено для центрирования */
+}
+
+.filter-tab {
+    width: 19%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #F0F8FF;
+    border: 1px solid transparent; /* Исправлено */
+}
+
+.filter-tabs .active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.filter-select {
+    padding: 8px 15px;
+    border: 2px solid #F0F8FF;
+    border-radius: 2px;
+    background-color: #fff;
+    width: 17%;
+    min-width: 120px;
+}
+
+
+
+.filter-bar-container {
+    width: 7%;
+    height: 50%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --- Общие стили для инпутов фильтров --- */
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.2s;
+}
+
+#hotel-search.search-input {
+    border-radius: 10px;
+}
+
+    #hotel-search.search-input:active {
+        border-radius: 10px;
+        border: 1px solid #e0e0e0;
+    }
+
+.filter-header h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    font-weight: 300;
+}
+
+.filter-section {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.map-preview {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.filter-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, padding 0.3s ease;
+    padding: 0;
+}
+
+.filter-section.active .filter-content {
+    max-height: 500px;
+    padding: 0 0 15px 0;
+    transition: max-height 0.5s ease-in, padding 0.3s ease;
+}
+
+.filter-arrow {
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+}
+
+/* При развернутом состоянии — стрелка вверх */
+.filter-section.active .filter-arrow {
+    transform: rotate(180deg);
+}
+
+.filter-section h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.filter-section:last-child {
+    border-bottom: none;
+}
+
+.filter-group label {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.filter-group input[type="checkbox"] {
+    accent-color: #4772F2;
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid gray;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.price-slider-container {
+    position: relative;
+    margin: 10px 0px;
+    min-width: 258px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.price-slider-track {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #e0e0e0;
+    border-radius: 2px;
+}
+
+.price-slider-fill {
+    position: absolute;
+    height: 100%;
+    background: #4772F2;
+    border-radius: 2px;
+    pointer-events: none;
+}
+
+.price-slider-container input[type="range"] {
+    position: absolute;
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    top: 4px;
+}
+
+    .price-slider-container input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 22px;
+        height: 22px;
+        background: white;
+        border: 2px solid #4772F2;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+
+
+    .price-slider-container input[type="range"]::-moz-range-thumb {
+        width: 22px;
+        height: 22px;
+        background: white;
+        border: 3px solid #4772F2;
+        cursor: pointer;
+        border-radius: 50%;
+        pointer-events: all;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .price-slider-container input[type="range"]::-webkit-slider-runnable-track {
+        background: transparent;
+        height: 4px;
+    }
+
+.price-values {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #666;
+}
+
+    .price-values span {
+        border: 1px solid #d0d0d0;
+        border-radius: 10px;
+        padding: 3px 5px;
+        background: white;
+        display: inline-block;
+        font-size: 13px;
+        color: #333;
+        min-width: 100px;
+        text-align: center;
+        font-weight: 100;
+    }
+
+
+
+.search-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* === 6. TOUR CARDS (GRID) === */
+.tours-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+
+
+
+.tour-image {
+    flex: 0 0 350px;
+}
+
+    .tour-image img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+.tour-info {
+    flex: 1;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tour-location {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.tour-rating {
+    display: flex;
+    gap: 2px;
+    margin-bottom: 10px;
+    color: #ffd700;
+    font-size: 20px;
+}
+
+.tour-hotel-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.tour-details {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    color: #666;
+    flex-wrap: wrap;
+}
+
+.detail-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.tour-price-block {
+    flex: 0 0 350px;
+    border-left: 1px solid #eee;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.price-tabs {
+    display: flex;
+    gap: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.price-tab {
+    padding: 8px 15px;
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    flex: 1;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+#hot-links:hover {
+    color: rgb(255, 68, 0);
+}
+
+.price-tab.active {
+    border-color: #0096D6;
+    color: #0096D6;
+    background-color: white;
+}
+
+.price-label {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.price-value {
+    font-size: 28px;
+    font-weight: bold;
+    color: #0096D6;
+    margin-bottom: 15px;
+}
+
+.services-icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    color: #333;
+}
+
+.select-button {
+    width: 100%;
+    padding: 12px;
+    background: #0096D6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    transition: background 0.2s ease;
+}
+
+    .select-button:hover {
+        background: #007B9D;
+    }
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin: 30px 0;
+}
+
+.page-btn {
+    padding: 8px 15px;
+    background-color: #f5f7fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+/* === 7. HOT TOURS SLIDER === */
+.hot-tours-section {
+    background-color: #F5FAFF;
+    padding: 30px 0;
+}
+
+.section-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.hot-tours-container {
+    background-color: white;
+    padding: 0 0 20px 0;
+    border-radius: 10px;
+    position: relative;
+    min-height: 300px;
+    height: auto;
+}
+
+.hot-tours-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.sort-dropdown {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+    .sort-dropdown select {
+        padding: 8px 12px;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        font-size: 13px;
+        background-color: white;
+        cursor: pointer;
+        min-width: 180px;
+    }
+
+.tours-slider {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: calc(280px * 4 + 15px * 3);
+    flex-shrink: 0;
+}
+
+.card-image {
+    position: relative;
+    width: 230px;
+    height: 312px;
+    overflow: hidden;
+}
+
+    .card-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.labels {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.label-recommended, .label-elite {
+    background-color: #FF5722;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.label-elite {
+    background-color: #D35400;
+}
+
+.card-info {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.location {
+    font-size: 12px;
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.hotel-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.3;
+    margin: 3px 0;
+}
+
+.rating {
+    font-size: 14px;
+    color: #FFD700;
+    font-weight: bold;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.old-price {
+    font-size: 12px;
+    color: #999;
+    text-decoration: line-through;
+}
+
+.new-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0096D6;
+}
+
+.meal-plan, .dates, .details, .icons {
+    font-size: 12px;
+    color: #666;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11px;
+}
+
+.slider-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    height: 210px;
+    align-items: end;
+}
+
+.nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    font-weight: bold;
+    color: #333;
+}
+
+    .nav-btn.prev {
+        left: -20px;
+    }
+
+    .nav-btn.next {
+        right: -20px;
+    }
+
+    .nav-btn img {
+        width: 16px;
+        height: 16px;
+        filter: grayscale(100%);
+    }
+
+    .nav-btn:hover img {
+        filter: none;
+    }
+
+/* === 8. MAP & MODAL === */
+.map-preview {
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.map-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 13px;
+}
+
+.map-button {
+    position: absolute;
+    border: none;
+    top: 48%;
+    left: 50%;
+    white-space: nowrap;
+    max-height: 34px;
+    font-size: 15px;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 1);
+    padding: 6px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+#map-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 2000;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-modal-content {
+    background: white;
+    width: 90%;
+    max-width: 1200px;
+    max-height: 90vh;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+}
+
+.map-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #f5f7fa;
+    border-bottom: 1px solid #eee;
+}
+
+.header-container {
+    padding: 0px 0px;
+}
+
+.map-modal-header h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.map-modal-close {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #666;
+}
+
+.map-modal-body {
+    height: calc(100% - 50px);
+    overflow: hidden;
+}
+
+.map-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+body.map-open {
+    overflow: hidden;
+}
+
+.map-section {
+    margin: 30px 0;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    width: 100%;
+}
+
+    .map-section h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+        color: #007B9D;
+        font-weight: bold;
+    }
+
+.map-container {
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #eee;
+}
+
+/* === 9. FOOTER & MISC === */
+.cta-button {
+    text-align: center;
+    position: relative;
+}
+
+.cta-btn {
+    padding: 15px 30px;
+    background-color: #0096D6;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tooltip {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+
+.footer-columns {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+}
+
+    .footer-column h4 {
+        margin-bottom: 15px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .footer-column ul {
+        list-style: none;
+    }
+
+    .footer-column li {
+        margin-bottom: 8px;
+    }
+
+    .footer-column a {
+        text-decoration: none;
+        color: #666;
+        font-size: 14px;
+    }
+
+        .footer-column a:hover {
+            color: #0096D6;
+        }
+
+
+
+.subscribe-form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    flex: 1;
+    font-size: 14px;
+}
+
+.privacy-note {
+    font-size: 12px;
+    color: #666;
+    margin: 15px 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+    .social-icons img {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.phone-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+    background-color: #DDEBFF;
+    padding: 10px 15px;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+.rating-box {
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+.floating-buttons {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.floating-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+    .floating-btn.green {
+        background-color: #28a745;
+        color: white;
+    }
+
+    .floating-btn.blue {
+        background-color: #0096D6;
+        color: white;
+    }
+
+    .floating-btn img {
+        width: 24px;
+        height: 24px;
+    }
+
+.loading {
+    text-align: center;
+    padding: 40px;
+    font-size: 18px;
+    color: #666;
+}
+
+.error-message {
+    background: #ffebee;
+    color: #c62828;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 20px;
+}
+

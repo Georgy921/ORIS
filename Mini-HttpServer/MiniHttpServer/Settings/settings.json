@@ -1,0 +1,14 @@
+{
+    "Domain": "localhost",
+    "Port": 1234,
+
+    "ConnectionString": "Host=localhost;Port=5432;Database=postgres;Username=postgres;Password=9996",
+
+    "SmtpHost": "smtp.gmail.com",
+    "SmtpPort": 587,
+    "SmtpEnableSsl": true,
+    "SmtpUsername": "aleksysnmpov@gmail.com",
+    "SmtpPassword": "aLZd8kbW4pSm5mPVVBLK",
+    "EmailFrom": "google@gmail.com"
+}
+
